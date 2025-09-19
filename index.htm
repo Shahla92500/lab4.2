@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+    <script src="script.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <title>Javascript Lab4.2</title>
+  </head>
+  <body>
+    <!-- // Task 3: Render the List in the Browser
+// Create an HTML page with an input field, an “Add Item” button, and an unordered list to display the items.
+        Lab4.2 -->
+    <div>
+        <h1>Shopping List</h1>
+        <label for="item-name">Item Name:</label>
+        <input name="item-name" type="text" id="item-input">
+        <label for="add-btn">Add Item:</label>
+        <button type="button" id="add-btn" class="btn btn-success" name="add-btn" onclick="displayList()">Add Item</button>
+        <label for="remove-btn">Remove Last Item:</label>
+        <button type="button" id="remove-btn" class="btn btn-danger" name="remove-btn" onclick="removeLastItemAndUpdate()">Remove Last Item</button>
+
+        <ul id="shopping-list">
+          <!-- <ol></ol>
+          <ol></ol>
+          <ol></ol>
+          <ol></ol>           -->
+        </ul>
+    </div>
+  </body>
+  </html>
